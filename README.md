@@ -23,6 +23,8 @@ This repository contains a full-stack Network Incident Reporting System using a 
 - Python 3.12+ installed
 - Node.js and npm installed
 - MongoDB Atlas account
+- GitHub account
+- Render account
 - VSCode IDE
 - Browser for HTTP interfacing
 
