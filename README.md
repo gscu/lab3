@@ -74,10 +74,15 @@ $env:ACCESS_TOKEN_EXPIRE_MINUTES="30"
 ```
 ## Run the frontend
 
-From `frontend/`:
-
 ```powershell
+npm create vite@latest frontend -- --template react
+cd frontend
 npm install
+npm install react-bootstrap bootstrap
+```
+
+From `frontend/`:
+```powershell
 npm run dev
 ```
 By default the server runs at `http://localhost:5173` in a local environment.
@@ -217,7 +222,7 @@ Add environment variable to point to: `VITE_API_URL=https://your-backend-service
 ## Notes
 
 - This README documents the minimal steps to run and test the Lab 3 backend and frontend in a deployment setup. This assumes proper setup of MongoDB Atlas database and collection. 
-- Updates to GitHub repo should pose no issues on Render's end as it will perform redeployment as needed.
+- Updates to GitHub repo should pose no issues on Render's end as it will perform redeployment as needed. Found here: https://github.com/gscu/lab3
 
 Live links links from Render are:
 
