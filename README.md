@@ -16,7 +16,7 @@ This repository contains a full-stack Network Incident Reporting System using a 
   - `src/` — React source files
   - `package.json` — Node dependencies and scripts
 - `README.md` — setup and usage documentation
-- `demo.mp4` — assignment demonstration video
+- `gheorghegeorgescu_SWS212Lab3.mp4` — assignment demonstration video
 
 ## Prerequisites
 
