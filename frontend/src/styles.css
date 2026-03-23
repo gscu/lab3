@@ -1,0 +1,40 @@
+/* styles.css - Custom CSS styles for the Network Incident Reporting System */
+/* Gheorghe Georgescu | 301377303 - SWS-212 Lab 3 */
+.appContainer { /* Container for the entire application with max width and padding */
+  max-width: 1100px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.appTitle { /* Main title styling with larger font size and bold weight */
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.appSubtitle { /* Subtitle styling with smaller font size and lighter color */
+  color: #666;
+  margin-bottom: 0;
+}
+
+.tokenBox { /* Box to display the authentication token with monospace font and styling */
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #f8f9fa;
+}
+
+.tokenLabel { /* Label for the token with smaller font size and gray color */
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.tokenValue { /* Value of the token with monospace font and styling */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9rem;
+  word-break: break-all;
+}
