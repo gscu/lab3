@@ -2,6 +2,7 @@ flask
 flask-cors
 fastapi
 uvicorn
+gunicorn
 requests
 pydantic
 python-dotenv
