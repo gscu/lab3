@@ -20,7 +20,7 @@ from auth import (
 # Main application setup
 app = FastAPI()
 
-app.add_middleware( 
+app.add_middleware( # Add CORS middleware to the FastAPI application to allow cross-origin requests from specified origins, enabling communication between the frontend and backend of the Network Incident Reporting System application without CORS-related issues.
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
