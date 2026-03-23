@@ -217,7 +217,15 @@ Add environment variable to point to: `VITE_API_URL=https://your-backend-service
 - This README documents the minimal steps to run and test the Lab 3 backend and frontend in a deployment setup. This assumes proper setup of MongoDB Atlas database and collection. 
 - Updates to GitHub repo should pose no issues on Render's end as it will perform redeployment as needed.
 
+Live links links from Render are:
+
+`backend`:
+https://lab3-8ksv.onrender.com/
+
+`frontend`:
+https://lab3-2-bgzo.onrender.com/
+
 ## Author
 
-Gheorghe Georgescu | 301377303
+Gheorghe Georgescu
 
