@@ -1,6 +1,6 @@
 // api.js - API functions to interact with the backend of the Network Incident Reporting System
 // Gheorghe Georgescu | 301377303 - SWS-212 Lab 3
-const API_URL = "http://localhost:8000"; // Backend URL
+const API_URL = import.meta.env.VITE_API_URL; // Backend URL
 // API functions to interact with the backend
 export async function registerUser({ username, password }) { // Use JSON body to send data
   const res = await fetch(`${API_URL}/register`, {
